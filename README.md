@@ -12,7 +12,7 @@ To design this webpage I also used a library called fontAwseome, within the fold
 # Gifs I have used
 
 ![foto](assets/Formulario-web.gif)
-![foto]](assets/Pagina-biografia.gif)
+![foto](assets/Pagina-biografia.gif)
 ![foto](assets/portfolio-web.gif)
 ![foto](assets/Pagina-principal-web.gif)
 
