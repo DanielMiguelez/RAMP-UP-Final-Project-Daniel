@@ -1,0 +1,24 @@
+body{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(197,216,48,1) 52%, rgba(35,37,183,1) 100%);
+}
+
+.padre{
+    display: flex;
+    align-content: center;
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 5px 5px black ;
+    border-radius: 10px;
+}
+.legend{
+    text-align: center;
+    border: 2px solid blue;
+}
+.fieldset{
+    border-color: blue;
+}
+

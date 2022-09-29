@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="../styles/form.css">
+
+</head>
+<body>
+<div class="padre">
+
+<fieldset class="fieldset">
+<legend class="legend"> - Keep in touch - </legend>
+
+<div class="div1">
+
+<label for="name"> Name</label> <br>
+<input type="name" name="name" id="name" autofocus required> <br> <br>
+
+<label for="surname">Surname</label> <br> <br>
+<input type="name" name="name" id="name" autofocus required> <br> <br>
+
+<h4>Select your country</h4>
+
+<input list="country" name="country">
+<datalist id="country">
+<option value="country">
+<option value="Spanish">
+<option value="French">
+<option value="English">
+<option value="Portuguese">
+<option value="Vietnamese">
+<option value="Dutch">
+<option value="German">
+<option value="Belgium">
+<option value="Norwegian">
+<option value="Swiss">
+<option value="Serbian">
+<option value="Swedish">
+<option value="Indian">
+<option value="Italian">
+ 
+</datalist>
+
+</div>
+
+<br> <br>
+
+<div class="div2">
+
+<label for="email"> Write your email</label> <br> <br>
+<input type="email" name="email" id="email"  required placeholder="Write here...">
+
+<br> <br> <br>
+
+<label for="text">Some opinions</label> <br> <br>
+<input type="text" name="text" id="text" required placeholder="Send your opinion"> <br> <br>
+</div>
+<br> 
+
+<hr/>
+<br>
+<p>If you have somtehing else to be said, or maybe some requests that could be useful for the page, just drop a message below ;)</p>
+
+<div class="div3">
+
+<textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your message"></textarea> <br> <br>
+
+<button>Send</button> 
+<input type="reset" class="i-reset"> <br> <br>
+
+<a href="../index.html">Go back to the main page</a>
+</div>
+
+</fieldset>
+</div>
+</body>
+</html>

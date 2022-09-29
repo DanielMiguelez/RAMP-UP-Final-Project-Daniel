@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  
+}
+
+p {
+  font-weight: 18px;
+  color: white;
+}
+a {
+  color: aliceblue;
+  text-decoration: uppercase;
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.bio-padre p {
+  width: 50%;
+  margin-top: 40px;
+}
+.bio-padre li {
+  height: 50px;
+  margin-top: 10px;
+}
+.bio-padre {
+  border: 5px solid rgb(255, 0, 0);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  align-content: space-between;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgb(114, 66, 113) 50%,
+    rgb(58, 37, 114) 100%
+  );
+}
+.bio-padre img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 25px;
+}
+.bio-padre-2 {
+  border: 5px solid blue;
+  display: flex;
+  padding: 15px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgb(114, 66, 113) 50%,
+    rgb(58, 37, 114) 100%
+  );
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+.bio-padre-2 img {
+  height: 200px;
+  width: 400px;
+  padding: 20px;
+}
+.bio-padre-2 p {
+  margin-top: 50px;
+}
+.bio-padre-3 {
+  border: 5px solid rgb(1, 255, 44);
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgb(114, 66, 113) 50%,
+    rgb(58, 37, 114) 100%
+  );
+}
+.bio-padre-3 img {
+  height: 200px;
+  width: 400px;
+  margin: 30px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: gold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+@media all and (max-width: 1100px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 750px) {
+  .bio-padre-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .listita {
+    display: none;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .bio-padre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bio-padre-3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .bio-padre p {
+    font-size: 12px;
+    margin-left: 125px;
+  }
+  .bio-padre img {
+    margin-left: 100px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .bio-padre p {
+    margin-left: 100px;
+  }
+
+  .bio-padre-3 img {
+    width: 80%;
+    height: 80%;
+  }
+}
