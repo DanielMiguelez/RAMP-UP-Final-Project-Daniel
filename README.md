@@ -11,9 +11,9 @@ To design this webpage I also used a library called fontAwseome, within the fold
 
 # Gifs I have used
 
-![gif](assets/Formulario-web.gif)
-![gif](assets/Pagina-biografia.gif)
-![gif](assets/portfolio-web.gif)
-![gif](assets/Pagina-principal-web.gif)
+![foto](assets/Formulario-web.gif)
+![foto]](assets/Pagina-biografia.gif)
+![foto](assets/portfolio-web.gif)
+![foto](assets/Pagina-principal-web.gif)
 
 Realizado por [Daniel Miguelez] (https://github.com/DanielMiguelez)
